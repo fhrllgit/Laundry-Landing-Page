@@ -2,7 +2,7 @@
     <div>
         <transition name="slide-down">
             <div v-show="showNavbar"
-                class="flex top-0 left-0 z-99 fixed shadow-sm bg-white py-3 md:px-10 px-5 lg:px-40 w-full items-center justify-between">
+                class="flex top-0 left-0 z-99 fixed shadow-sm bg-white py-3 px-5 md:px-10 lg:px-20 xl:px-40 w-full items-center justify-between">
                 <div class="flex items-center gap-3">
                     <div class="p-2 rounded-full bg-[#2196f3]">
                         <WashingMachine class="w-6 h-6 text-white" />

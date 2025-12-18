@@ -9,7 +9,7 @@
             </div>
         </div>
         <div
-            class="flex flex-col lg:flex-row md:px-10 px-5 lg:px-40 w-full justify-center items-center min-h-screen py-20 lg:py-0 gap-12 lg:gap-16">
+            class="flex flex-col lg:flex-row md:px-10 lg:px-20 xl:px-40 px-5 w-full justify-center items-center min-h-screen py-20 lg:py-0 gap-12 lg:gap-16">
             <div class="flex-1 relative flex flex-col space-y-6 lg:space-y-8 z-10 w-full">
                 <div class="flex flex-col space-y-3">
                     <h1 class="text-4xl md:text-5xl lg:text-6xl leading-tight animate-fade-in font-extrabold">
@@ -66,7 +66,7 @@
             <div class="flex-1 flex items-center justify-center relative w-full">
                 <div class="absolute inset-0 flex items-center justify-center pointer-events-none">
                     <div
-                        class="absolute right-0 bottom-0 w-24 h-24 lg:w-32 lg:h-32 border-2 border-[#2196f3]/20 rounded-2xl rotate-12 animate-float">
+                        class="absolute right-0 z-40 bottom-0 w-24 h-24 lg:w-32 lg:h-32 border-2 border-[#2196f3]/20 rounded-2xl rotate-12 animate-float">
                     </div>
                     <div
                         class="absolute -top-10 -right-10 w-40 h-40 lg:w-64 lg:h-64 bg-gradient-to-br from-blue-300/20 to-transparent rounded-full blur-3xl animate-pulse-slow">
@@ -79,7 +79,7 @@
                     <div class="water-bubble" style="bottom:20%; left:20%; animation-delay:2s;"></div>
                 </div>
                 <div class="relative z-10 w-full max-w-md lg:max-w-lg">
-                    <div class="bg-white/80 backdrop-blur-sm shadow-xl rounded-2xl lg:rounded-3xl overflow-hidden">
+                    <div class="bg-white/80 backdrop-blur-sm rounded-2xl lg:rounded-3xl overflow-hidden">
                         <div
                             class="rounded-2xl lg:rounded-3xl overflow-hidden transform hover:scale-[1.02] transition-all duration-500 hover:shadow-[#2196f3]/20 hover:shadow-3xl">
                             <img class="w-full h-auto object-cover" src="../../assets/img/contentImage.jpg"

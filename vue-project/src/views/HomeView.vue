@@ -4,6 +4,7 @@
   <LayananKami />
   <Harga/>
   <Kontak/>
+  <Testimoni/>
   <div class="h-screen">j</div>
 </template>
 
@@ -13,4 +14,5 @@ import Harga from './components/Harga.vue';
 import Kontak from './components/Kontak.vue';
 import LayananKami from './components/LayananKami.vue';
 import Navbar from './components/Navbar.vue';
+import Testimoni from './components/Testimoni.vue';
 </script>

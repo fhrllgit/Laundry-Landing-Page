@@ -1,6 +1,14 @@
 <template>
     <div class="min-h-screen bg-white">
-        <div class="px-5 md:px-10 lg:px-20 xl:px-40 py-16 md:py-20">
+        <div class="px-5 relative md:px-10 lg:px-20 xl:px-40 py-16 md:py-20">
+             <div class="absolute inset-0 flex items-center justify-center pointer-events-none">
+                    <div
+                        class="absolute right-0 z-40 bottom-0 w-24 h-24 lg:w-32 lg:h-32 border-2 border-[#2196f3]/20 rounded-2xl rotate-12 animate-float">
+                    </div>
+                    <div
+                        class="absolute left-0 ml-20 -top-1 mt-20 z-40 w-24 h-24 lg:w-32 lg:h-32 border-2 border-[#2196f3]/20 rounded-2xl rotate-12 animate-float">
+                    </div>
+                </div>
             <div class="text-center mb-12 mt-10 md:mb-16">
                 <div class="inline-block mb-4">
                     <span class="px-4 py-2 bg-blue-100 text-[#2196f3] rounded-full text-sm font-semibold">
