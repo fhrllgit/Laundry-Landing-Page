@@ -10,10 +10,10 @@
                     <span class="text-lg text-[#2196f3] font-semibold">ZahraLaundry</span>
                 </div>
                 <div class="lg:flex hidden items-center gap-5">
-                    <div v-for="item in menuItems">
+                    <RouterLink v-for="item in menuItems" :to="item.to">
                         <button class="text-md hover:text-[#2196f3] cursor-pointer text-[#535252]"
                             style="font-weight: 500;">{{ item.name }}</button>
-                    </div>
+                    </RouterLink>
                 </div>
                 <div
                     class="lg:flex hidden group border border-[#2196f3] rounded-lg cursor-pointer px-3 py-2 items-center gap-2">
@@ -37,11 +37,11 @@
         </transition>
         <!-- Content Navbar Mobile -->
         <div v-if="isMobile"
-            class="flex fixed  mt-16.5 lg:hidden flex-col px-5 md:px-10 bg-white shadow-xl py-3 gap-5 absolute z-30 w-full">
-            <div class="" v-for="item in menuItems">
+            class="flex fixed  mt-16 lg:hidden flex-col px-5 md:px-10 bg-white shadow-xl py-3 gap-5 absolute z-30 w-full">
+            <RouterLink v-for="item in menuItems" :to="item.to">
                 <button class="text-md hover:text-[#2196f3] cursor-pointer text-[#535252]" style="font-weight: 500;">{{
                     item.name }}</button>
-            </div>
+            </RouterLink>
             <div
                 class="flex w-max group border border-[#2196f3] rounded-lg cursor-pointer px-3 py-2 items-center gap-2">
                 <svg class="size-5 group-hover:text-[#076bbe] text-[#2196f3]" xmlns="http://www.w3.org/2000/svg"
@@ -75,10 +75,11 @@ const handleScroll = () => {
 }
 
 const menuItems = [
-    { id: 1, name: "Beranda" },
-    { id: 2, name: "Jasa" },
-    { id: 3, name: "Harga" },
-    { id: 4, name: "Kontak" },
+    { id: 1, name: "Beranda",     to: { path: "/", hash: "#beranda" }, },
+    { id: 2, name: "Layanan Kami",     to: { path: "/", hash: "#layanan" }, },
+    { id: 3, name: "Harga",     to: { path: "/", hash: "#harga" }, },
+    { id: 4, name: "Kontak",     to: { path: "/", hash: "#kontak" }, },
+    { id: 4, name: "Testimoni",     to: { path: "/", hash: "#testimoni" }, },
 ]
 
 const isOpen = () => {

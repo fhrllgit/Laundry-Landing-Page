@@ -1,6 +1,6 @@
 <template>
     <div class="min-h-screen bg-white">
-        <div class="px-5 relative md:px-10 lg:px-20 xl:px-40 py-16 md:py-20">
+        <div class="px-5 overflow-hidden relative md:px-10 lg:px-20 xl:px-40 py-16 md:py-20">
              <div class="absolute inset-0 flex items-center justify-center pointer-events-none">
                     <div
                         class="absolute right-0 z-40 bottom-0 w-24 h-24 lg:w-32 lg:h-32 border-2 border-[#2196f3]/20 rounded-2xl rotate-12 animate-float">
